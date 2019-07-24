@@ -2,16 +2,23 @@
   <div id="app">
     <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
     <Header msg="Welcome to Your Vue.js App"/>
+    <packagebutton/>
+    <platform/>
+
   </div>
 </template>
 
 <script>
 import Header from './components/Header.vue'
+import packagebutton from './components/packagebutton.vue'
+import platform from './components/platform.vue'
 
 export default {
   name: 'app',
   components: {
-    Header
+    Header,
+    packagebutton,
+    platform
   }
 }
 </script>
